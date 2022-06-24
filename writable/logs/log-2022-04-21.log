@@ -1,0 +1,65 @@
+CRITICAL - 2022-04-21 10:59:47 --> Invalid file: index.php
+#0 /www/wwwroot/i-can.afnan.my.id/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/i-can.afnan.my.id/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/i-can.afnan.my.id/app/Controllers/Home.php(9): view()
+#3 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/i-can.afnan.my.id/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-21 10:59:52 --> Invalid file: index.php
+#0 /www/wwwroot/i-can.afnan.my.id/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/i-can.afnan.my.id/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/i-can.afnan.my.id/app/Controllers/Home.php(9): view()
+#3 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/i-can.afnan.my.id/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-21 11:00:42 --> Invalid file: index.php
+#0 /www/wwwroot/i-can.afnan.my.id/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/i-can.afnan.my.id/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/i-can.afnan.my.id/app/Controllers/Home.php(9): view()
+#3 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/i-can.afnan.my.id/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-21 11:01:16 --> Invalid file: index.php
+#0 /www/wwwroot/i-can.afnan.my.id/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/i-can.afnan.my.id/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/i-can.afnan.my.id/app/Controllers/Home.php(9): view()
+#3 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/i-can.afnan.my.id/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-21 11:01:17 --> Invalid file: index.php
+#0 /www/wwwroot/i-can.afnan.my.id/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/i-can.afnan.my.id/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /www/wwwroot/i-can.afnan.my.id/app/Controllers/Home.php(9): view()
+#3 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /www/wwwroot/i-can.afnan.my.id/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-21 11:02:54 --> Invalid file: layout/template.php
+#0 /www/wwwroot/i-can.afnan.my.id/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/i-can.afnan.my.id/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /www/wwwroot/i-can.afnan.my.id/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/i-can.afnan.my.id/app/Controllers/Home.php(9): view()
+#4 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/i-can.afnan.my.id/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-21 11:03:11 --> Invalid file: layout/template.php
+#0 /www/wwwroot/i-can.afnan.my.id/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /www/wwwroot/i-can.afnan.my.id/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /www/wwwroot/i-can.afnan.my.id/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /www/wwwroot/i-can.afnan.my.id/app/Controllers/Home.php(9): view()
+#4 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/i-can.afnan.my.id/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/i-can.afnan.my.id/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

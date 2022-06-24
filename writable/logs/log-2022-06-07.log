@@ -1,0 +1,196 @@
+ERROR - 2022-06-07 00:00:33 --> Unknown column 'bid_id' in 'where clause'
+CRITICAL - 2022-06-07 00:00:33 --> Unknown column 'bid_id' in 'where clause'
+#0 C:\xampp\htdocs\i-can\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\i-can\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\i-can\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\i-can\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\i-can\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\i-can\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\i-can\app\Controllers\User.php(51): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('2')
+#8 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-07 00:02:26 --> Unknown column 'bid_id' in 'where clause'
+CRITICAL - 2022-06-07 00:02:26 --> Unknown column 'bid_id' in 'where clause'
+#0 C:\xampp\htdocs\i-can\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\i-can\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\i-can\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\i-can\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\i-can\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\i-can\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\i-can\app\Controllers\User.php(51): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('2')
+#8 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-07 00:21:10 --> Undefined variable $transaction
+#0 C:\xampp\htdocs\i-can\app\Views\user\detail_riwayat.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\i-can\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\i-can\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\i-can\system\Common.php(1089): CodeIgniter\View\View->render('user/detail_riw...', Array, true)
+#4 C:\xampp\htdocs\i-can\app\Controllers\User.php(71): view('user/detail_riw...', Array)
+#5 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('2')
+#6 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-07 08:15:59 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-07 08:15:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\i-can\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\i-can\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\i-can\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\i-can\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\i-can\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\i-can\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\xampp\htdocs\i-can\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-07 08:16:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\i-can\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('5')
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 08:17:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\i-can\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('5')
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 08:17:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\i-can\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('5')
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 08:18:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\i-can\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('5')
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 08:18:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\i-can\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('5')
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 08:18:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\i-can\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('5')
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 08:20:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\i-can\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('5')
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 08:20:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\i-can\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('5')
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 08:22:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\i-can\app\Controllers\User.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->detail('5')
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 11:25:45 --> Invalid file: user/edit_account.php
+#0 C:\xampp\htdocs\i-can\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/edit_accou...')
+#1 C:\xampp\htdocs\i-can\system\Common.php(1089): CodeIgniter\View\View->render('user/edit_accou...', Array, true)
+#2 C:\xampp\htdocs\i-can\app\Controllers\User.php(46): view('user/edit_accou...', Array)
+#3 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->editAccount()
+#4 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-07 11:30:41 --> Too few arguments to function App\Controllers\User::editAccount(), 0 passed in C:\xampp\htdocs\i-can\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->editAccount()
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-07 11:33:24 --> Too few arguments to function App\Controllers\User::editAccount(), 0 passed in C:\xampp\htdocs\i-can\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->editAccount()
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-07 11:33:26 --> Too few arguments to function App\Controllers\User::editAccount(), 0 passed in C:\xampp\htdocs\i-can\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->editAccount()
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-07 11:33:27 --> Too few arguments to function App\Controllers\User::editAccount(), 0 passed in C:\xampp\htdocs\i-can\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->editAccount()
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-07 11:35:02 --> Too few arguments to function App\Controllers\User::editAccount(), 0 passed in C:\xampp\htdocs\i-can\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->editAccount()
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-07 11:35:48 --> Too few arguments to function App\Controllers\User::editAccount(), 0 passed in C:\xampp\htdocs\i-can\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->editAccount()
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-07 11:36:23 --> Too few arguments to function App\Controllers\User::editAccount(), 0 passed in C:\xampp\htdocs\i-can\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->editAccount()
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-07 11:39:21 --> Too few arguments to function App\Controllers\User::editAccount(), 0 passed in C:\xampp\htdocs\i-can\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\i-can\system\CodeIgniter.php(832): App\Controllers\User->editAccount()
+#1 C:\xampp\htdocs\i-can\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\i-can\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\i-can\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\i-can\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
